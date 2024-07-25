@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .container{
+                height:100vh;
+                width:100vw;
+                display: flex;
+                box-sizing: border-box;
+                flex-wrap: wrap;
+            }
+            .container >div{
+                border: 1px solid;
+                box-sizing: border-box;
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+        .large{
+            height:calc(30% - 10px);
+            width:calc(100% - 10px);
+            background-color: lightgreen;
+        }
+        .medium{
+            height:calc(45% - 10px);
+            width:calc(33% - 10px);
+            background-color:lightblue;
+        }
+        .small{
+            height:calc(25% - 10px);
+            width:calc(25% - 10px);
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="large"></div>
+        <div class="medium"></div>
+        <div class="medium"></div>
+        <div class="medium"></div>
+        <div class="small"></div>
+        <div class="small"></div>
+        <div class="small"></div>
+        <div class="small"></div>
+     </div>
+</body>
+</html>

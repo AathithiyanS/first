@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin:40px;
+        }
+        .text{
+            height: 100px;
+            width: 100px;
+            background-color:beige;
+            transition-property:width;
+            transition-property:height;
+            transition-duration:2s;
+        }
+        .one{
+            height: 200px;
+            width: 200px;
+            background-color:brown;
+            transition:width;
+            transition-duration:2s;
+        }
+        .two{
+            height: 200px;
+            width: 200px;
+            background-color:brown;
+            transition: transform;
+            transition-duration:2s;
+        }
+        .text:hover{
+            height: 200px;
+            width: 200px;
+        }
+        .one:hover{
+           width: 400px;
+        }
+        .two:hover{
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body>
+     <div class="text">
+        <h1>Hey</h1>
+     </div>
+     <div class="one"></div>
+     <div class="two"></div>
+</body>
+</html>
